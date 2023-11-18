@@ -1,0 +1,66 @@
+body {
+    background-color: #393e45;
+    height: 100vh;
+    overflow: hidden;
+}
+main .logoDiv {
+    background-repeat: no-repeat;
+    background-size: 80vw auto;
+    background-position: bottom center;
+    height: 50vh;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+main .textDiv {
+    height: 50vh;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+
+}
+
+main .textDiv .textDivArea {
+    color: white;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+main .textDiv .textDivArea a {
+    color: white;
+}
+main .textDiv .textDivArea a:hover {
+    color: #0092ca;
+}
+main .textDiv .textDivArea span {
+    color: #0092ca;
+}
+
+@media only screen and (min-width: 960px) {
+    main .textDiv {
+        width: 49%;
+        text-align: center;
+        height: 100vh;
+
+
+    }
+    main .textDiv .textDivArea {
+        top: 50%;
+        transform: translateY(-50%);
+
+
+
+    }
+
+    main .logoDiv {
+        width: 50%;
+        background-position: center right;
+        background-size: 20vw auto;
+        height: 100vh;
+
+    }
+
+}
